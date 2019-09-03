@@ -10,7 +10,7 @@ public class TextAnalyzer
     {
         this.text = text;
     }
-
+//
     /**
      * Splits the text into words
      * @return

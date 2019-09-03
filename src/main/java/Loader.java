@@ -9,7 +9,7 @@ public class Loader
     {
         //Reading file to the String
         String text = new String(Files.readAllBytes(Paths.get("res/text_01.txt")));
-
+//
         TextAnalyzer analyzer = new TextAnalyzer(text);
         System.out.println("Most frequent word: " + analyzer.getMostFrequentWord());
     }
